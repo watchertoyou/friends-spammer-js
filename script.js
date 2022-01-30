@@ -54,8 +54,8 @@ function getLogs() {
 function setLogs() {
     if(localStorage.getItem("fake data") != null) {
         userList = JSON.parse(localStorage.getItem("fake data"));
-        console.log('%cБаза "fake data" успешно загружена!', 'color: green;');
-        console.log(`%cВсего отправлено: ${userList.length} заявок.\nПервая заявка: ${userList[0].addedAt}`, 'color: green;');
+        console.log('%cБаза "fake data" успешно загружена!', 'color: royalblue;');
+        console.log(`%cВсего отправлено: ${userList.length} заявок.\nПервая заявка: ${userList[0].addedAt}`, 'color: royalblue;');
     } else {
         console.log('%cБаза "fake data" не найдена :(', 'color: crimson;');
     }
